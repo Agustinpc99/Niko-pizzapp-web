@@ -13,6 +13,7 @@ function Header(props) {
   return (
     <>
     <header className="flex px-2 bg-amber-500 py-3 items-center">
+          <img className='h-10 pe-2' src="/logopizza.png" alt="" />
           <h1 className="grow text-xl font-semibold">Niko Pizzapp</h1>
           <nav className="flex gap-2">
             <Anchor className={botonesNav[0]} to="/">Inicio</Anchor>
