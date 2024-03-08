@@ -1,16 +1,15 @@
-import {RouterProvider,createBrowserRouter} from "react-router-dom"
+import {BrowserRouter,Routes,Route} from "react-router-dom"
 import History from './views/History'
 import Home from './views/Home'
 
-const router = createBrowserRouter([
-  {path:"/", element: <Home></Home>},
-  {path:"/history", element: <History></History>},
-])
-
-
 function App() {
   return (
-    <RouterProvider router={router}></RouterProvider>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home></Home>}></Route>
+        <Route path="/history" element={<History></History>}></Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
