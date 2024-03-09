@@ -12,9 +12,11 @@ function Header(props) {
   let botonesNav = botonNav()
   return (
     <>
-    <header className="flex px-2 bg-amber-500 py-3 items-center">
+    <header className="flex px-2 bg-gradient-to-r from-red-700 to-amber-500 py-3 items-center">
+          <Anchor to="/" className='flex gap-2'>
           <img className='h-10 pe-2' src="/logopizza.png" alt="" />
-          <h1 className="grow text-xl font-semibold">Niko Pizzapp</h1>
+          <h1 className="grow text-xl font-semibold">Niko Pizzapp</h1></Anchor>
+          <div className='grow'></div>
           <nav className="flex gap-2">
             <Anchor className={botonesNav[0]} to="/">Inicio</Anchor>
             <Anchor className={botonesNav[1]} to="/history">Historial</Anchor>

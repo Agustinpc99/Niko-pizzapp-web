@@ -7,7 +7,7 @@ function Generador() {
     function generarSabor(){
         let rareza = Math.round(Math.random()*100)
         let seleccionSabor
-        if(rareza <= 60){
+        if(rareza <= 70){
             seleccionSabor = Math.round(Math.random()*5)
             return sabores.comun[seleccionSabor]
         } else if(rareza <= 99){
@@ -51,7 +51,7 @@ function Generador() {
 
   return (
     <>
-    <div className="h-[40vh] w-[90%] flex flex-col justify-center items-center bg-yellow-400 rounded-t text-xl gap-4 font-semibold md:h-[60vh] md:text-3xl lg:w-[80vw] xl:w-[60vw]">
+    <div className="h-[40vh] w-[90%] flex flex-col justify-center items-center bg-orange-400 rounded-t text-xl gap-4 font-semibold md:h-[60vh] md:text-3xl lg:w-[80vw] xl:w-[60vw]">
             <p className={colores[0]}>{pizza[0]}</p>
             <p className={colores[1]}>{pizza[1]}</p>
             <p className={colores[2]}>{pizza[2]}</p>
