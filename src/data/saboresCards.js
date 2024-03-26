@@ -2,331 +2,331 @@ export const cards = [
     {
         "imagen": "",
         "nombre": "Cochina",
-        "descripcion": "",
+        "descripcion": "Muzzarella - Huevo frito - Lluvia de papas",
         "rareza": "comun"
     },
     {
         "imagen": "",
         "nombre": "Especial de rucula",
-        "descripcion": "",
+        "descripcion": "Muzzarella - Jamon crudo - Rucula - Parmesano",
         "rareza": "comun"
     },
     {
         "imagen": "",
         "nombre": "Salchipapa",
-        "descripcion": "",
+        "descripcion": "Muzzarella - Papitas - Salchichas",
         "rareza": "comun"
     },
     {
         "imagen": "",
         "nombre": "Provolone con panceta",
-        "descripcion": "",
+        "descripcion": "Muzzarella - Panceta - Morron - Provolone",
         "rareza": "comun"
     },
     {
         "imagen": "",
         "nombre": "Especial de pollo",
-        "descripcion": "",
+        "descripcion": "Muzzarella - Pollo - Huevo duro - Morrones",
         "rareza": "comun"
     },
     {
         "imagen": "",
         "nombre": "Champignones",
-        "descripcion": "",
+        "descripcion": "Muzzarella - Champignones a la crema",
         "rareza": "comun"
     },
     {
         "imagen": "",
         "nombre": "Especial de la casa",
-        "descripcion": "",
+        "descripcion": "Muzzarella - Tomate - Huevo duro - Longaniza - Morron",
         "rareza": "raro"
     },
     {
         "imagen": "",
-        "nombre": "Muzza",
-        "descripcion": "",
+        "nombre": "Muzzarella",
+        "descripcion": "Muzzarella",
         "rareza": "raro"
     },
     {
         "imagen": "",
         "nombre": "Jamon y morron",
-        "descripcion": "",
+        "descripcion": "Muzzarella - Jamon - Morron",
         "rareza": "raro"
     },
     {
         "imagen": "",
         "nombre": "Jamon",
-        "descripcion": "",
+        "descripcion": "Muzzarella - Jamon",
         "rareza": "raro"
     },
     {
         "imagen": "",
         "nombre": "Morron",
-        "descripcion": "",
+        "descripcion": "Muzzarella - Morron",
         "rareza": "raro"
     },
     {
         "imagen": "",
         "nombre": "Napolitana",
-        "descripcion": "",
+        "descripcion": "Muzzarella - Rodajas de tomate",
         "rareza": "raro"
     },
     {
         "imagen": "",
         "nombre": "Napolitana c/jamon",
-        "descripcion": "",
+        "descripcion": "Muzzarella - Rodajas de tomate - Jamon",
         "rareza": "raro"
     },
     {
         "imagen": "",
         "nombre": "Napolitana c/huevo",
-        "descripcion": "",
+        "descripcion": "Muzzarella - Rodajas de tomate - Huevo duro picado",
         "rareza": "raro"
     },
     {
         "imagen": "",
         "nombre": "Napolitana c/Jamon y huevo",
-        "descripcion": "",
+        "descripcion": "Muzzarella - Rodajas de tomate - Jamon - Huevo duro",
         "rareza": "raro"
     },
     {
         "imagen": "",
         "nombre": "Calabresa",
-        "descripcion": "",
+        "descripcion": "Muzzarella - Longaniza",
         "rareza": "raro"
     },
     {
         "imagen": "",
         "nombre": "Palmitos",
-        "descripcion": "",
+        "descripcion": "Muzzarella - Palmitos - Morron - Salsa golf",
         "rareza": "raro"
     },
     {
         "imagen": "",
         "nombre": "Especial de palmitos",
-        "descripcion": "",
+        "descripcion": "Muzzarella - Jamon - Palmitos - Morron - Salsa golf",
         "rareza": "raro"
     },
     {
         "imagen": "",
         "nombre": "Cuatro Quesos",
-        "descripcion": "",
+        "descripcion": "Muzzarella - Provolone - Roquefort - Tybo",
         "rareza": "raro"
     },
     {
         "imagen": "",
         "nombre": "Especial de panceta",
-        "descripcion": "",
+        "descripcion": "Muzzarella - Panceta - Morrones",
         "rareza": "raro"
     },
     {
         "imagen": "",
         "nombre": "Criolla",
-        "descripcion": "",
+        "descripcion": "Muzzarella - Salsa criolla",
         "rareza": "raro"
     },
     {
         "imagen": "",
         "nombre": "Panceta c/Cheddar",
-        "descripcion": "",
+        "descripcion": "Muzzarella - Panceta - Cheddar",
         "rareza": "raro"
     },
     {
         "imagen": "",
         "nombre": "Especial de salchichas",
-        "descripcion": "",
+        "descripcion": "Muzzarella - Salchichas - Mostaza",
         "rareza": "raro"
     },
     {
         "imagen": "",
         "nombre": "De atun",
-        "descripcion": "",
+        "descripcion": "Muzzarella - Atun - Morrones",
         "rareza": "raro"
     },
     {
         "imagen": "",
-        "nombre": "Muza al verdeo",
-        "descripcion": "",
+        "nombre": "Muzarella al verdeo",
+        "descripcion": "Muzzarella - Cebolla de verdeo",
         "rareza": "raro"
     },
     {
         "imagen": "",
         "nombre": "Rucula",
-        "descripcion": "",
+        "descripcion": "Muzzarella - Rucula - Parmesano",
         "rareza": "raro"
     },
     {
         "imagen": "",
         "nombre": "Berenjenas",
-        "descripcion": "",
+        "descripcion": "Muzzarella - Berenjenas - Morron",
         "rareza": "raro"
     },
     {
         "imagen": "",
         "nombre": "Especial de crudo",
-        "descripcion": "",
+        "descripcion": "Muzzarella - Jamon crudo - Morron",
         "rareza": "raro"
     },
     {
         "imagen": "",
         "nombre": "Caprese",
-        "descripcion": "",
+        "descripcion": "Muzzarella - Tomate - Albahaca",
         "rareza": "raro"
     },
     {
         "imagen": "",
         "nombre": "Humita",
-        "descripcion": "",
+        "descripcion": "Muzzarella - Choclo - Salsa blanca",
         "rareza": "raro"
     },
     {
         "imagen": "",
         "nombre": "Choclo",
-        "descripcion": "",
+        "descripcion": "Muzzarella - Choclo",
         "rareza": "raro"
     },
     {
         "imagen": "",
         "nombre": "Primavera",
-        "descripcion": "",
+        "descripcion": "Muzzarella - Huevo duro - Morron",
         "rareza": "raro"
     },
     {
         "imagen": "",
         "nombre": "Primavera c/Jamon",
-        "descripcion": "",
+        "descripcion": "Muzzarella - Jamon - Huevo duro - Morron",
         "rareza": "raro"
     },
     {
         "imagen": "",
         "nombre": "Correntina",
-        "descripcion": "",
+        "descripcion": "Muzzarella - Huevo frito",
         "rareza": "raro"
     },
     {
         "imagen": "",
         "nombre": "Verduras C/Salsa blanca",
-        "descripcion": "",
+        "descripcion": "Muzzarella - Salsa blanca - Acelga",
         "rareza": "raro"
     },
     {
         "imagen": "",
         "nombre": "Provolone",
-        "descripcion": "",
+        "descripcion": "Muzzarella - Provolone - Morron",
         "rareza": "raro"
     },
     {
         "imagen": "",
         "nombre": "Provolone c/jamon",
-        "descripcion": "",
+        "descripcion": "Muzzarella - Jamon - Provolone - Morron",
         "rareza": "raro"
     },
     {
         "imagen": "",
         "nombre": "Roquefort",
-        "descripcion": "",
+        "descripcion": "Muzzarella - Roquefort",
         "rareza": "raro"
     },
     {
         "imagen": "",
         "nombre": "Roquefort c/jamon",
-        "descripcion": "",
+        "descripcion": "Muzzarella - Roquefort - Jamon",
         "rareza": "raro"
     },
     {
         "imagen": "",
         "nombre": "Lluvia de papas",
-        "descripcion": "",
+        "descripcion": "Muzzarella - Papas pay",
         "rareza": "raro"
     },
     {
         "imagen": "",
         "nombre": "Roquefort con panceta",
-        "descripcion": "",
+        "descripcion": "Muzzarella - Roquefort - Panceta",
         "rareza": "raro"
     },
     {
         "imagen": "",
         "nombre": "Margarita",
-        "descripcion": "",
+        "descripcion": "Muzzarella - Albahaca - Ajo",
         "rareza": "raro"
     },
     {
         "imagen": "",
         "nombre": "A la bolognesa",
-        "descripcion": "",
+        "descripcion": "Muzzarella - Carne picada - Salsa de tomate",
         "rareza": "raro"
     },
     {
         "imagen": "",
         "nombre": "De vegetales",
-        "descripcion": "",
+        "descripcion": "Muzzarella - Cebolla - C. de verdeo - Morrones cherry salteados",
         "rareza": "raro"
     },
     {
         "imagen": "",
         "nombre": "Fugazza con queso y panceta",
-        "descripcion": "",
+        "descripcion": "Muzzarella - Cebolla - Panceta",
         "rareza": "raro"
     },
     {
         "imagen": "",
         "nombre": "Fugazza con queso",
-        "descripcion": "",
+        "descripcion": "Muzzarella - Cebolla",
         "rareza": "raro"
     },
     {
         "imagen": "",
         "nombre": "Fugazza cheddar",
-        "descripcion": "",
+        "descripcion": "Muzzarella - Cebolla - Cheddar",
         "rareza": "raro"
     },
     {
         "imagen": "",
         "nombre": "Cheddar",
-        "descripcion": "",
+        "descripcion": "Muzzarella - Papas copetin - Cheddar",
         "rareza": "raro"
     },
     {
         "imagen": "",
         "nombre": "Ananá",
-        "descripcion": "",
+        "descripcion": "Muzzarella - Anana - Morron",
         "rareza": "legendario"
     },
     {
         "imagen": "",
         "nombre": "Hawaiana",
-        "descripcion": "",
+        "descripcion": "Muzzarella - Jamon cocido - Anana - Morrones",
         "rareza": "legendario"
     },
     {
         "imagen": "",
         "nombre": "Hawaiana c/crudo",
-        "descripcion": "",
+        "descripcion": "Muzzarella - Jamon crudo - Anana - Morrones",
         "rareza": "legendario"
     },
     {
         "imagen": "",
         "nombre": "Romana",
-        "descripcion": "",
+        "descripcion": "Muzzarella - Jamon - Tomate - Huevo duro - Anchoas",
         "rareza": "legendario"
     },
     {
         "imagen": "",
         "nombre": "Muzarella c/Anchoas",
-        "descripcion": "",
+        "descripcion": "Muzzarella - Anchoas",
         "rareza": "legendario"
     },
     {
         "imagen": "",
         "nombre": "Anchoas",
-        "descripcion": "",
+        "descripcion": "Salsa de tomates y anchoas",
         "rareza": "legendario"
     },
     {
         "imagen": "",
         "nombre": "Mixta",
-        "descripcion": "",
+        "descripcion": "Mitad muzzarella - Mitad salsa con anchoas",
         "rareza": "legendario"
     }
 ]
