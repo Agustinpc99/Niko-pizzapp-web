@@ -5,12 +5,12 @@ function Generador() {
     const [pizza, setPizza] = useState(Array(4).fill(''))
 
     function generarSabor(){
-        let rareza = Math.round(Math.random()*100)
+        let rareza = Math.round(Math.random()*1000)
         let seleccionSabor
-        if(rareza <= 70){
+        if(rareza <= 700){
             seleccionSabor = Math.round(Math.random()*5)
             return sabores.comun[seleccionSabor]
-        } else if(rareza <= 99){
+        } else if(rareza <= 990){
             seleccionSabor = Math.round(Math.random()*41)
             return sabores.raro[seleccionSabor]
         } else {

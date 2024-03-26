@@ -1,14 +1,13 @@
 import React from 'react'
-import LayoutMain from '../components/LayoutMain'
 import {sabores} from "../data/sabores"
 
 function History() {
     let HistorialPizzas = JSON.parse(localStorage.getItem("historialPizzas")) || []
     let pizzas = HistorialPizzas
+    
 
   return (
     <>
-    <LayoutMain estado={false}>
         <main className="grow flex flex-col justify-center items-center gap-4">
             <p className='text-xl font-semibold'>Total: {pizzas.length}</p>
             <div className='grow flex flex-wrap gap-10 justify-center'>
@@ -25,7 +24,6 @@ function History() {
                 </div> )}
           </div>
         </main>
-    </LayoutMain>
     </>
   )
 }
