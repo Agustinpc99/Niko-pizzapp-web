@@ -5,6 +5,7 @@ import LayoutMain from "./components/LayoutMain"
 import { useEffect } from "react"
 import Pizzas from "./views/Pizzas"
 
+
 function App() {
   return (
     <BrowserRouter>

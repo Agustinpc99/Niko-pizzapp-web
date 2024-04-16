@@ -1,18 +1,22 @@
 import React, { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
 
 function HistoryDel() {
 
   const [password,setPassword] = useState("")
+  const navigate = useNavigate()
 
   function confirmPass(e){
     e.preventDefault()
     if(password == "Jaja1515.."){
       localStorage.removeItem("historialPizzas")
+      navigate("/")
     }else{
       alert("Contraseña erronea")
     }
-
+    
   }
+  
 
   function inputRescue(e){
     

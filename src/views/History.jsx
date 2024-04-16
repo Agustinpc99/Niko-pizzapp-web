@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import {sabores} from "../data/sabores"
 import HistoryDel from '../components/HistoryDel'
 
@@ -16,6 +16,7 @@ function History() {
       
 
     }
+
     
 
   return (
