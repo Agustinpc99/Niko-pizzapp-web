@@ -16,8 +16,10 @@ function History() {
   return (
     <>
         <main className="grow flex flex-col justify-center items-center gap-4">
-            <div className='flex justify-center relative w-full'><p className='text-xl font-semibold pt-2'>Total: {pizzas.length}</p>
-            <img onClick={borrarHistorial} className='w-10 bg-black rounded-xl absolute end-3 top-1' src="/eliminar.png" alt="boton basurero" /></div>
+            <div className='flex justify-center relative w-full'>
+              <p className='text-xl font-semibold pt-2'>Total: {pizzas.length}</p>
+              <img onClick={borrarHistorial} className='w-10 bg-black rounded-xl absolute end-3 top-1' src="/eliminar.png" alt="boton basurero" />
+            </div>
             {mostrarBorrar}
             <div className='grow flex flex-wrap gap-10 justify-center'>
                 {pizzas.length > 0 && pizzas.map((cards) => <div key={Math.random()} className="h-[300px] w-[300px] flex flex-col justify-center items-center bg-amber-500 rounded-xl text-xl gap-4 font-semibold md:h-[350px] md:w-[400px] md:text-3xl border border-black">

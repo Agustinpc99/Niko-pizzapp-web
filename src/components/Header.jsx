@@ -13,7 +13,7 @@ function Header() {
     let navbar = rutas.map((ruta) => {
       return <Anchor onClick={cerrarMenu} className={`border p-1 text-lg rounded border-yellow-500 ${ruta.activo ? "bg-yellow-300" : "bg-yellow-400"}`} key={ruta.titulo} to={ruta.path}>{ruta.titulo}</Anchor>
     })
-    menuHamburguesa.props.className == "animate__animated animate__backInDown flex flex-col bg-gradient-to-r from-amber-500 to-red-700 w-[200px] h-[150px] self-end justify-evenly absolute top-16" ? setMenuHamburguesa(<nav className='animate__animated animate__backOutUp flex flex-col bg-gradient-to-r from-amber-500 to-red-700 w-[200px] h-[150px] self-end justify-evenly absolute top-16'>{navbar}</nav>) : setMenuHamburguesa(<nav className='animate__animated animate__backInDown flex flex-col bg-gradient-to-r from-amber-500 to-red-700 w-[200px] h-[150px] self-end justify-evenly absolute top-16'>{navbar}</nav>)
+    menuHamburguesa.props.className == "animate__animated animate__backInDown flex flex-col bg-gradient-to-r from-amber-500 to-red-700 w-[200px] h-[150px] self-end justify-evenly absolute top-16 z-10" ? setMenuHamburguesa(<nav className='animate__animated animate__backOutUp flex flex-col bg-gradient-to-r from-amber-500 to-red-700 w-[200px] h-[150px] self-end justify-evenly absolute top-16 z-10'>{navbar}</nav>) : setMenuHamburguesa(<nav className='animate__animated animate__backInDown flex flex-col bg-gradient-to-r from-amber-500 to-red-700 w-[200px] h-[150px] self-end justify-evenly absolute top-16 z-10'>{navbar}</nav>)
   }
 
   function cerrarMenu(){
