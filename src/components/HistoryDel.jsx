@@ -4,10 +4,11 @@ function HistoryDel() {
 
   const [password,setPassword] = useState("")
 
-  function confirmPass(){
+  function confirmPass(e){
+    e.preventDefault()
     if(password == "Jaja1515.."){
       localStorage.removeItem("historialPizzas")
-    } else{
+    }else{
       alert("Contraseña erronea")
     }
 

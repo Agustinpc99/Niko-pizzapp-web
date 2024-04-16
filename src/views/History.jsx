@@ -5,10 +5,15 @@ import HistoryDel from '../components/HistoryDel'
 function History() {
     let HistorialPizzas = JSON.parse(localStorage.getItem("historialPizzas")) || []
     let pizzas = HistorialPizzas
-    const [mostrarBorrar,setMostrarBorrar] = useState(<></>)
+    const [mostrarBorrar,setMostrarBorrar] = useState(null)
 
     function borrarHistorial(){
-      setMostrarBorrar(<HistoryDel></HistoryDel>)
+      if(mostrarBorrar == null){
+        setMostrarBorrar(<HistoryDel></HistoryDel>)
+      }else {
+        setMostrarBorrar(null)
+      }
+      
 
     }
     
