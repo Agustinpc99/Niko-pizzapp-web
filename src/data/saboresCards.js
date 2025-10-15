@@ -13,13 +13,13 @@ export const cards = [
     },
     {
         "imagen": "",
-        "nombre": "Salchipapa",
+        "nombre": "Salchipapas",
         "descripcion": "Muzzarella - Papitas - Salchichas",
         "rareza": "comun"
     },
     {
         "imagen": "",
-        "nombre": "Provolone con panceta",
+        "nombre": "Panceta c/ Provolone",
         "descripcion": "Muzzarella - Panceta - Morron - Provolone",
         "rareza": "comun"
     },
@@ -37,7 +37,7 @@ export const cards = [
     },
     {
         "imagen": "",
-        "nombre": "Especial de la casa",
+        "nombre": "Especialidad de la casa",
         "descripcion": "Muzzarella - Tomate - Huevo duro - Longaniza - Morron",
         "rareza": "raro"
     },
@@ -55,13 +55,13 @@ export const cards = [
     },
     {
         "imagen": "",
-        "nombre": "Jamon",
+        "nombre": "Jamón",
         "descripcion": "Muzzarella - Jamon",
         "rareza": "raro"
     },
     {
         "imagen": "",
-        "nombre": "Morron",
+        "nombre": "Morrón",
         "descripcion": "Muzzarella - Morron",
         "rareza": "raro"
     },
@@ -73,19 +73,19 @@ export const cards = [
     },
     {
         "imagen": "",
-        "nombre": "Napolitana c/jamon",
+        "nombre": "Napolitana c/ jamón",
         "descripcion": "Muzzarella - Rodajas de tomate - Jamon",
         "rareza": "raro"
     },
     {
         "imagen": "",
-        "nombre": "Napolitana c/huevo",
+        "nombre": "Napolitana c/ huevo",
         "descripcion": "Muzzarella - Rodajas de tomate - Huevo duro picado",
         "rareza": "raro"
     },
     {
         "imagen": "",
-        "nombre": "Napolitana c/Jamon y huevo",
+        "nombre": "Napolitana con jamón y huevo",
         "descripcion": "Muzzarella - Rodajas de tomate - Jamon - Huevo duro",
         "rareza": "raro"
     },
@@ -127,7 +127,7 @@ export const cards = [
     },
     {
         "imagen": "",
-        "nombre": "Panceta c/Cheddar",
+        "nombre": "Panceta c/ cheddar",
         "descripcion": "Muzzarella - Panceta - Cheddar",
         "rareza": "raro"
     },
@@ -139,13 +139,13 @@ export const cards = [
     },
     {
         "imagen": "",
-        "nombre": "De atun",
+        "nombre": "De atún",
         "descripcion": "Muzzarella - Atun - Morrones",
         "rareza": "raro"
     },
     {
         "imagen": "",
-        "nombre": "Muzarella al verdeo",
+        "nombre": "Muzzarella al verdeo",
         "descripcion": "Muzzarella - Cebolla de verdeo",
         "rareza": "raro"
     },
@@ -193,7 +193,7 @@ export const cards = [
     },
     {
         "imagen": "",
-        "nombre": "Primavera c/Jamon",
+        "nombre": "Primavera c/ jamón",
         "descripcion": "Muzzarella - Jamon - Huevo duro - Morron",
         "rareza": "raro"
     },
@@ -205,7 +205,7 @@ export const cards = [
     },
     {
         "imagen": "",
-        "nombre": "Verduras C/Salsa blanca",
+        "nombre": "Verdura c/ salsa blanca",
         "descripcion": "Muzzarella - Salsa blanca - Acelga",
         "rareza": "raro"
     },
@@ -217,7 +217,7 @@ export const cards = [
     },
     {
         "imagen": "",
-        "nombre": "Provolone c/jamon",
+        "nombre": "Provolone c/ jamón",
         "descripcion": "Muzzarella - Jamon - Provolone - Morron",
         "rareza": "raro"
     },
@@ -229,7 +229,7 @@ export const cards = [
     },
     {
         "imagen": "",
-        "nombre": "Roquefort c/jamon",
+        "nombre": "Roquefort con jamón",
         "descripcion": "Muzzarella - Roquefort - Jamon",
         "rareza": "raro"
     },
@@ -277,7 +277,7 @@ export const cards = [
     },
     {
         "imagen": "",
-        "nombre": "Fugazza cheddar",
+        "nombre": "Fugazzeta cheddar",
         "descripcion": "Muzzarella - Cebolla - Cheddar",
         "rareza": "raro"
     },
@@ -301,7 +301,7 @@ export const cards = [
     },
     {
         "imagen": "",
-        "nombre": "Hawaiana c/crudo",
+        "nombre": "Hawaiana c/ crudo",
         "descripcion": "Muzzarella - Jamon crudo - Anana - Morrones",
         "rareza": "legendario"
     },
@@ -313,7 +313,7 @@ export const cards = [
     },
     {
         "imagen": "",
-        "nombre": "Muzarella c/Anchoas",
+        "nombre": "Muzzarella c/ anchoas",
         "descripcion": "Muzzarella - Anchoas",
         "rareza": "legendario"
     },
