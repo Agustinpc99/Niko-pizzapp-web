@@ -39,7 +39,7 @@ cards.forEach((pizza)=>{
   }
 })
 
-  let tarjetas = cards.map((tarjeta) => <div key={tarjeta.nombre} className="py-6 h-[350px] w-[300px] flex flex-col justify-center items-center bg-amber-500 rounded-xl text-xl gap-4 font-semibold md:h-[400px] md:w-[400px] md:text-3xl border border-black">
+  let tarjetas = cards.map((tarjeta) => <div key={tarjeta.nombre} className="p-6 min-h-[350px] w-[300px] flex flex-col justify-between items-center bg-amber-500 rounded-xl text-xl gap-4 font-semibold md:min-h-[400px] md:w-[400px] md:text-2xl border border-black text-center">
     <img className='h-1/2' src={tarjeta.imagen || "/pronto.png"} alt="" />
     <h2>{tarjeta.nombre}</h2>
     <p className='ps-2 text-lg'>{tarjeta.descripcion}</p>
