@@ -8,18 +8,27 @@ function Pizzas() {
   const [pizzas, setPizzas] = useState([])
 
   useEffect(()=>{
-    const url = "https://corsproxy.io/?" + encodeURIComponent("https://queresto.com/Pizzerianiko")
-    fetch(url).then(e => e.text()).then(html => {
-    const doc = new DOMParser().parseFromString(html, "text/html");
-    const datos = [...doc.querySelectorAll("#category-138951 .store-menu-item")].map(card => ({
-      nombre: card.querySelector(".name")?.textContent.trim().toLowerCase(),
-      precio: card.querySelector(".price-value")?.textContent.trim()
-    }))
+    // Reemplazamos corsproxy por la ruta relativa de la función de Netlify
+    const url = "/.netlify/functions/get-pizzas";
 
-    setPizzas(datos)
-    
-  })
-},[])
+    fetch(url)
+      .then((e) => {
+        if (!e.ok) throw new Error("Error en la respuesta del servidor");
+        return e.text();
+      })
+      .then((html) => {
+        const doc = new DOMParser().parseFromString(html, "text/html");
+        
+        // Toda tu lógica original de scraping se mantiene intacta
+        const datos = [...doc.querySelectorAll("#category-138951 .store-menu-item")].map(card => ({
+          nombre: card.querySelector(".name")?.textContent.trim().toLowerCase(),
+          precio: card.querySelector(".price-value")?.textContent.trim()
+        }));
+
+        setPizzas(datos);
+      })
+      .catch((error) => console.error("Error cargando pizzas:", error));
+  }, []);
 
 cards.forEach((pizza)=>{
   for (const pi of pizzas) {
